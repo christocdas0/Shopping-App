@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js Final Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--  slider links -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- end slider links -->
+
+    <!--  bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <i class="fa fa-bars" id="bar"></i>
+    <!-- nav bar -->
+
+    <nav id="main-nav" class="tranformClass">
+      <div class="left-menu">
+        <!-- main logo menu -->
+
+        <div class="nav-logo">
+          <a href="index.html"> <span> shope</span> lane </a>
+        </div>
+
+        <!-- clothing menu -->
+        <a class="clothing-menu-a" href="#mens-and-womens-clothing-section">
+          Clothing
+        </a>
+        <a class="Accessories-menu-a" href="#accesserios-section">
+          Accessories
+        </a>
+      </div>
+      <div class="mid-menu">
+        <!--  search icon -->
+        <i class="fa fa-search"></i>
+
+        <!-- serch bar -->
+        <input type="text" placeholder="Search..." />
+      </div>
+      <div class="right-menu">
+        <!-- cart -->
+        <div class="cart-wrapper">
+          <!-- cart count -->
+          <p class="cart-acount">0</p>
+          <a href="checkoutpgae.html">
+            <i class="fa fa-shopping-cart"></i>
+          </a>
+        </div>
+
+        <a href="https://www.facebook.com/christocdaschristocdas">
+          <img src="img/criz.jpeg" alt="nav img" />
+        </a>
+      </div>
+    </nav>
+
+  
+
+    <main class="main_home">
+      <section class="slider-home">
+        <div class="scrollsection">
+          <img class="imgscroll" src="img/96OnkX7.png" />
+          <img class="imgscroll" src="img/KtGxwnN.png" />
+          <img class="imgscroll" src="img/p0wdadG.png" />
+          <img class="imgscroll" src="img/sfjg9R8.png" />
+        </div>
+      </section>
+
+      <!--  mens clothing section -->
+      <section id="mens-and-womens-clothing-section">
+        <h3>Clothing for Men and Women</h3>
+        <!-- clothing grid -->
+        <div class="clothing-grid">
+          <!-- product card -->
+        </div>
+      </section>
+      <!-- mens clothing section end -->
+
+      <section id="accesserios-section">
+        <h3>Accessories for Men and Women</h3>
+        <div class="accesserios-grid">
+          <!-- product card -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+
+    <div class="product-container non">
+      <div class="img-section">
+        <div class="img-div"></div>
+      </div>
+      <div class="details-section-wrapper">
+        <div id="details-section"></div>
+        <div
+          id="product-preview-img-contanier"
+          class="previewImgContanier"
+        ></div>
+
+        <button id="addToCartBtn">Add to cart</button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="div1">
+        <p class="footer-head">Online Store</p>
+        <a class="footer-link" href="#mens-and-womens-clothing-section"
+          >Men Clothing</a
+        >
+        <a class="footer-link" href="#mens-and-womens-clothing-section"
+          >Women Clothing</a
+        >
+        <a class="footer-link" href="#accesserios-section">Men Accessories</a>
+        <a class="footer-link" href="#accesserios-section">Women Accessories</a>
+      </div>
+      <div class="div2">
+        <p class="footer-head">Helpful Links</p>
+        <a class="footer-link" href="#">Home</a>
+        <a class="footer-link" href="#">About</a>
+        <a class="footer-link" href="#">Contact</a>
+      </div>
+      <div class="div3">
+        <p class="footer-head">Partners</p>
+        <a class="footer-link" href="#">Zara</a>
+        <a class="footer-link" href="#">Pantaloons</a>
+        <a class="footer-link" href="#">Levis</a>
+        <a class="footer-link" href="#">UCB</a>
+        <a class="footer-link" href="#">+ Many More</a>
+      </div>
+      <div class="div4">
+        <p class="footer-head">Address</p>
+        <p class="footer-link">Building 101</p>
+        <p class="footer-link">Central Avenue</p>
+        <p class="footer-link">LA - 902722</p>
+        <p class="footer-link">United States</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="App.js"></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </body>
+</html>
